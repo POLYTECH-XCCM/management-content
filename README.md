@@ -43,28 +43,65 @@ Lancez l'application :
 Accédez à l'application :
 Ouvrez votre navigateur et accédez à http://localhost:3000.
 
-Contribution
-Nous apprécions les contributions à ce projet ! Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
+Collaboration sur le projet
+Chaque membre de l'équipe a une branche dédiée pour travailler. Voici la liste des branches :
 
-Forkez le dépôt.
+    DONGMO : DONGMO
 
-Créez une nouvelle branche pour vos modifications :
+    BIKOURI : BIKOURI
 
-git checkout -b feature/nouvelle-fonctionnalite
-Committez vos modifications :
+    TIWA : TIWA
 
-git commit -m "Ajout d'une nouvelle fonctionnalité"
-Poussez vos modifications vers votre fork :
+    NOUTCHAT : NOUTCHAT
 
-git push origin feature/nouvelle-fonctionnalite
-Ouvrez une Pull Request sur le dépôt principal.
+    MBOLANG : MBOLANG
+
+1. Cloner le dépôt
+Pour commencer à travailler, chaque membre doit cloner le dépôt sur sa machine locale :
+
+git clone https://github.com/POLYTECH-XCCM/management-content.git
+cd management-content
+
+2. Basculer sur votre branche
+Une fois le dépôt cloné, basculez sur votre branche dédiée :
+
+git checkout NOM_DE_LA_BRANCHE
+Exemple :
+Si vous êtes DONGMO, utilisez :
+
+git checkout DONGMO
+
+3. Travailler sur votre branche
+Effectuez vos modifications sur votre branche.
+
+Ajoutez vos modifications et faites un commit :
+
+git add .
+git commit -m "Description des modifications"
+Poussez vos modifications vers GitHub :
+
+git push origin NOM_DE_LA_BRANCHE
+
+4. Soumettre une Pull Request
+Une fois vos modifications terminées, soumettez une Pull Request depuis votre branche vers la branche master pour que vos modifications soient revues et fusionnées.
+
+5. Synchroniser avec la branche principale
+Pour éviter les conflits, synchronisez régulièrement votre branche avec master :
+
+git checkout master
+git pull origin master
+git checkout NOM_DE_LA_BRANCHE
+git merge master
+
+6. Respecter les délais et les bonnes pratiques
+Travaillez de manière collaborative et respectez les délais.
+
+En cas de questions ou de blocages, contactez le chef de projet.
 
 Contact
-Pour toute question ou suggestion, n'hésitez pas à nous contacter :
+Pour toute question ou assistance, contactez :
 
-Équipe XCCM : davidtolokoum8@gmail.com
-
-Dépôt GitHub : https://github.com/POLYTECH-XCCM/management-content
+TOLOKOUM David (Chef de projet) : davidtolokoum8@gmail.com
 
 Remerciements
 Nous tenons à remercier nos professeurs et l'École Nationale Supérieure Polytechnique de Yaoundé pour leur soutien dans la réalisation de ce projet.
