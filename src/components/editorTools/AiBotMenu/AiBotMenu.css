@@ -1,0 +1,28 @@
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-content {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-icon {
+  margin-right: 8px;
+}

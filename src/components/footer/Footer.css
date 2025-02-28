@@ -1,0 +1,106 @@
+.footer-container {
+    padding: 2rem 1rem;
+    background-color: #f8f9fa; /* Fond clair pour le mode jour */
+    color: #333; /* Texte foncé pour le mode jour */
+    font-family: 'Arial', sans-serif;
+    border-top: 1px solid #e0e0e0; /* Ligne de séparation discrète */
+  }
+  
+  .dark-theme {
+    background-color: #1a1a1a; /* Fond très sombre pour le mode nuit */
+    color: #f8f9fa; /* Texte clair pour le mode nuit */
+    border-top: 1px solid #333; /* Ligne de séparation pour le mode nuit */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logo {
+    margin-bottom: 1rem;
+    width: 100px;
+    height: auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    color: #555; /* Couleur des icônes (gris foncé) pour le mode jour */
+    font-size: 1.25rem;
+    transition: color 0.2s ease;
+  }
+  
+  .dark-theme .social-icons a {
+    color: #f8f9fa; /* Couleur des icônes (blanc) pour le mode nuit */
+  }
+  
+  .social-icons a:hover {
+    color: #1abc9c; /* Couleur au survol (turquoise) */
+  }
+  
+  .footer-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: #1abc9c; /* Couleur des titres (turquoise) */
+  }
+  
+  .footer-section p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    color: #555; /* Texte secondaire (gris foncé) pour le mode jour */
+  }
+  
+  .dark-theme .footer-section p {
+    color: #ccc; /* Texte secondaire (gris clair) pour le mode nuit */
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #555; /* Texte secondaire (gris foncé) pour le mode jour */
+  }
+  
+  .dark-theme .contact-info {
+    color: #ccc; /* Texte secondaire (gris clair) pour le mode nuit */
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0; /* Ligne de séparation discrète pour le mode jour */
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #777; /* Texte léger pour le bas de footer (mode jour) */
+  }
+  
+  .dark-theme .footer-bottom {
+    border-top: 1px solid #333; /* Ligne de séparation pour le mode nuit */
+    color: #aaa; /* Texte léger pour le bas de footer (mode nuit) */
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }

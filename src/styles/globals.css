@@ -1,0 +1,49 @@
+@config "../../tailwind.editor.config.ts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-full overflow-x-hidden;
+}
+html {
+  @apply h-full;
+}
+#__next {
+  @apply h-full;
+}
+
+.public-DraftEditor-content > div h1 {
+  @apply text-4xl;
+}
+
+.node-doc {
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+.node-part {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.node-chapter {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.node-paragraph {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.node-notion {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.notion-body {
+  font-size: 15px;
+}
